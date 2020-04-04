@@ -17,3 +17,6 @@ module SampleApp
     # the framework and any gems in your application.
   end
 end
+
+# 不要なDeprecation WARNINGを無視する
+ActiveSupport::Deprecation.silenced = true if Rails.version == '6.0.2.2'
