@@ -12,7 +12,11 @@ gem 'coffee-rails', '~>4.2.2'
 gem 'jquery-rails', '~>4.3.1'
 gem 'turbolinks',   '~>5.0.1'
 gem 'jbuilder',     '~>2.7.0'
-gem 'bootsnap', '>= 1.1.0', require: false
+gem 'bootsnap',     '>= 1.1.0', require: false
+gem 'faker',        '1.7.3'
+gem 'will_paginate','3.1.7'
+gem 'bootstrap-will_paginate', '1.0.0'
+
 
 group :development, :test do
   gem 'sqlite3', '~>1.4.0'
